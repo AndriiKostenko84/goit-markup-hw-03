@@ -1,0 +1,226 @@
+:root {
+    --brand-color: #757575;
+    --main-title-color: #212121;
+    --accent-color: #2196F3;
+    --third-color: #FFFFFF;
+
+
+    
+}
+
+
+body {
+  background-color: var(--third-color);
+  font-family: "Roboto", sans-serif;
+
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* ----Header------- */
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  color: var(--accent-color);
+}
+.logo-header {
+  color: var(--main-title-color);
+}
+
+.site-nav {
+  color: var(--main-title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.contacts .contacts-item {
+ 
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+}
+.contacts .contacts-item:hover,
+.contacts .contacts-item:focus {
+  color: var(--accent-color);
+}
+/* ----Header------- */
+
+/* -------Hero------- */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color:var(--third-color);
+}
+.btn-hero {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--third-color);
+  cursor: pointer;
+  background: var(--accent-color);
+}
+.btn-hero:hover,
+.btn-hero:focus {
+    color: #188CE8;
+}
+
+/* -------Hero------- */
+
+/* -----Features------ */
+.features {
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.feature-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-title-color);
+}
+
+.feature-text {
+
+  font-family: 'Roboto';
+    font-style: normal;
+     font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--brand-color);
+}
+
+/* -----Features------ */
+
+/* -----Work----- */
+.section-title {
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--main-title-color);
+}
+/* -----Work----- */
+
+/* -----Our Team----- */
+.team {
+  background-color: #F5F4FA;
+}
+
+.heading {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;   
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--main-title-color);
+        background-color: var(--third-color);
+}
+
+.job-heading {
+         font-size: 16px;
+        line-height: 1.18; 
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--brand-color);
+        background-color: var(--third-color);
+}
+.photo-list {
+  background-color: var(--third-color);
+}
+
+/* -----Our Team----- */
+
+/* ----footer---- */
+.footer {
+    background-color: #2F303A;
+}
+.logo-footer {
+    color: var(--third-color);
+}
+.address {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71; 
+        letter-spacing: 0.03em;
+        color: var(--third-color);
+}
+.address-list {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+.address-list:hover,
+.address-list:focus {
+  color: var(--accent-color);
+}
+
+/* ----footer---- */
+
+/* -----portfolio----- */
+
+/* -----portf btn-----*/
+
+.button-projects {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  border-style: none;
+
+}
+.button .button-projects:hover,
+.button .button-projects:focus {
+  color: var(--third-color);
+  background-color: var(--accent-color);
+}
+
