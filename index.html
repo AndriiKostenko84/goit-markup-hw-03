@@ -22,16 +22,16 @@
   <body>
     <!-- Шапка -->
     <header class="header">
-      <div class="container">
+      <div class="header-container container">
+        <a href="./index.html" class="logo">Web<span class="logo-header">Studio</span></a>
       <nav>
-        <a href="" class="logo">Web<span class="logo-header">Studio</span></a>
-        <ul class="site-nav list">
+        <ul class="header-nav list">
           <li><a class="link" href="./index.html">Студія</a></li>
           <li><a class="link" href="./portfolio.html">Портфоліо</a></li>
           <li><a class="link" href="">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="contacts list">
+      <ul class="contacts list flex-contacts-header">
         <li>
           <a href="mailto:info@devstudio.com" class="contacts-item link">info@devstudio.com</a>
         </li>
@@ -89,7 +89,7 @@
       <section class="section work list">
         <div class="container">
         <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="list">
+          <ul class="work-list list">
           <li>
             <img src="./images/type.jpg" alt="друкує" width="370" height="294" />
           </li>
@@ -109,24 +109,32 @@
         <ul class="photo-list list">
           <li>
             <img src="./images/igor.jpg" alt="Ігор Дем'яненко" width="270" height="260" />
-             <h3 class="heading">Ігор Дем'яненко</h3>
+            <div class="position">
+            <h3 class="heading">Ігор Дем'яненко</h3>
             <p class="job-heading" lang="en">Product Designer</p>
+            </div>
           </li>
           <li>
             <img class="photo" src="./images/olga.jpg" alt="Ольга Рєпіна" width="270" height="260" />
+            <div class="position">
             <h3 class="heading">Ольга Рєпіна</h3>
             <p class="job-heading" lang="en">Frontend Developer</p>
+            </div>
           </li>
           <li>
               <img src="./images/mykola.jpg" alt="Микола Тарасов" width="270" height="260" />
-              <h3 class="heading">Микола Тарасов</h3>
+              <div class="position">
+                <h3 class="heading">Микола Тарасов</h3>
               <p class="job-heading" lang="en">Marketing</p>
+              </div>
           </li>
           <li>
             <img src="./images/mukhaylo.jpg" alt="Михайло Єрмаков" width="270" height="260" />
-            <h3 class="heading">Михайло Єрмаков</h3>
+            <div class="position">
+                <h3 class="heading">Михайло Єрмаков</h3>
             <p class="job-heading" lang="en">UI Designer</p>
-          </li>
+            </div>
+           </li>
         </ul>
         </div>
       </section>
@@ -134,15 +142,18 @@
     <!-- Футер -->
     <footer class="section footer">
       <div class="container">
-          <a href="" class="logo">Web<span class="logo-footer">Studio</span></a>
+          <a href="" class="footer-logo">Web<span class="logo-footer">Studio</span></a>
           <address>
+            
+            <div class="address-footer">
             <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
-            <p>
-              <a href="mailto:info@devstudio.com" class="address-list link">info@devstudio.com</a>
-            </p>
-            <p>
-              <a href="tel:+380961111111" class="address-list link">+38 096 111 11 11</a>
-            </p>
+          <p>
+            <a href="mailto:info@devstudio.com" class="address-list link">info@devstudio.com</a>
+          </p>
+          <p>
+            <a href="tel:+380961111111" class="address-list link">+38 096 111 11 11</a>
+          </p>
+            </div>
           </address>
       </div>
     </footer>
