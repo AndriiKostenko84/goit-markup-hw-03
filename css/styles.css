@@ -41,6 +41,8 @@ ul {
 }
 .img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* ----Header------- */
@@ -49,12 +51,7 @@ ul {
 }
 .header-container {
   display: flex;
-  align-items: baseline;
-}
-.flex-contacts-header {
-  display: flex;
-  margin-left: auto;
-  gap: 50px;
+  align-items: center;
 }
 
 .logo {
@@ -69,6 +66,7 @@ ul {
 
   color: var(--accent-color);
 }
+
 .logo-header {
   margin-right: 90px;
   color: var(--main-title-color);
@@ -76,18 +74,31 @@ ul {
 
 .header-nav {
   display: flex;
+  align-items: center;
   gap: 50px;
-  color: var(--main-title-color);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  color: var(--main-title-color);
 }
 
 .header-nav .link:hover,
 .header-nav .link:focus {
   color: var(--accent-color);
 }
+
+.flex-contacts-header {
+  display: flex;
+  margin-left: auto;
+  gap: 50px;
+}
+
+
+
+
 .contacts .contacts-item {
   padding-left: auto;
   font-weight: 500;
@@ -212,8 +223,9 @@ ul {
 }
 .position {
   margin-top: var(--indent);
+  
 }
-.heading {
+.heading-name {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -261,6 +273,7 @@ ul {
 }
 
 .address {
+  margin-bottom: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -268,6 +281,8 @@ ul {
   color: var(--third-color);
 }
 .address-list {
+  display: inline-block;
+  margin-bottom: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -275,9 +290,8 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 .address-footer {
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
+    display: inline-block;
+    margin-bottom: 60px;
 }
 
 .address-list:hover,
@@ -296,7 +310,7 @@ ul {
   justify-content: center;
   gap: 8px;
   margin-top: 94px;
-  margin-bottom: 56px;
+  margin-bottom: 50px;
 }
 .button-projects {
   padding: 6px 22px;
@@ -317,8 +331,35 @@ ul {
   background-color: var(--accent-color);
 }
 
-.features-item {
+.filter-item {
   display: flex;
   flex-wrap: wrap;
   gap: var(--indent);
+}
+.filter-projects {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #EEEEEE;
+  border-top: none;
+ 
+}
+
+ 
+.filter-title {
+  margin-bottom: 4px;
+  min-width: 270px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+}
+.filter-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
 }
