@@ -37,6 +37,7 @@ ul {
 }
 .section {
   padding-top: 94px;
+  padding-bottom: 94px;
 
 }
 .img {
@@ -200,8 +201,8 @@ ul {
 
 .feature-text {
   font-style: normal;
-  font-size: 16px;
-  line-height: 1.88;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--brand-color);
 }
@@ -230,7 +231,7 @@ ul {
   background-color: #f5f4fa;
 }
 .position {
-  margin-top: var(--indent);
+  padding-bottom: 30px;
   
 }
 .heading-name {
@@ -246,7 +247,6 @@ ul {
 }
 
 .job-heading {
-  padding-bottom: 94px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
